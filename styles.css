@@ -1,0 +1,93 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0%;
+}
+
+h2 {
+    font-weight: lighter;
+    color: rgb(54, 76, 95)
+}
+
+.navbar {
+    position: fixed;
+    margin-inline: 25%;
+    top: 40px;
+    width: 50%;
+    background-color: #101427;
+    border-radius: 15px;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    margin: 10px;
+    height: 25px;
+}
+
+.nav-list-item a {
+    color: rgb(211, 225, 250);
+    font-weight: bold;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    padding: 10px;
+}
+
+.nav-list-item a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.container {
+    position: fixed;
+    margin-inline: 25%;
+    top: 120px;
+    width: 50%;
+    background-color: #101427;
+    border-radius: 15px;
+}
+
+.container-text {
+    margin: 10px;
+}
+
+.container-text img {
+    float: left;
+    height: auto;
+    width: 30%;
+    border-radius: 50%;
+    margin: 20;
+}
+
+.intro-header {
+    position: relative;
+    color: rgb(211, 225, 250);
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+.intro-body {
+    color: rgb(211, 225, 250);
+    margin: 20px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+   
+::-webkit-scrollbar-thumb {
+    background: rgb(211, 225, 250); 
+    border-radius: 10px;
+}
+
+.class-body {
+    max-height: 60vh;
+    overflow-y: scroll;
+
+    color: rgb(211, 225, 250);
+    margin: 20px;
+    display: inline-block;
+    vertical-align: bottom;
+}
