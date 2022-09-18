@@ -73,15 +73,6 @@ h2 {
     vertical-align: bottom;
 }
 
-::-webkit-scrollbar {
-    width: 8px;
-}
-   
-::-webkit-scrollbar-thumb {
-    background: rgb(211, 225, 250); 
-    border-radius: 10px;
-}
-
 .class-body {
     max-height: 60vh;
     overflow-y: scroll;
@@ -91,3 +82,18 @@ h2 {
     display: inline-block;
     vertical-align: bottom;
 }
+
+.tab {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+   
+::-webkit-scrollbar-thumb {
+    background: rgb(211, 225, 250); 
+    border-radius: 10px;
+}
+
